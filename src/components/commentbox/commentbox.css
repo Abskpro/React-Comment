@@ -1,0 +1,48 @@
+.cmtname{
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea{
+    width:50%;
+    resize:none;
+    border-radius:5px;
+}
+
+button{
+    color: #444444;
+    background:#F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius:2px;
+    font-weight:bold;
+    font-size:9pt;
+    outline:none;
+}
+
+button:hover{
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background:#F7F7F7;
+    cursor:pointer;
+}
+
+button:active{
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+button.blue {
+    color: white;
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+}
+
+@media only screen and (max-width: 500px){
+    textarea{
+        width:80%;
+        height:50px;
+    }
+}
